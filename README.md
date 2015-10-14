@@ -256,30 +256,3 @@ less文件存为 `.less` 后缀，引用时还是使用 `.css`后缀，
 
 ### 异步接口数据
 这类数据通过AJAX请求加载，放在 `/data/api/xxx.js`
-
-### 数据接口列表
-| url         |  说明                   |
-| :----------| :---------------------|
-| /api/hotellist | 酒店列表            |
-| /api/citysuggest | 城市suggest            |
-| /api/keywordsuggest | 关键字suggest            |
-| /api/citylist | 城市列表            |
-| api/hotkeywords | 热词卡            |
-| /api/hoteldetail | 酒店详情            |
-| /api/hoteldevice | 城市设施            |
-| /api/hotelprice | 房间报价            |
-| /api/hotelimg | 酒店图片            |
-
-##集成发布
-QDR:
-http://qdr.corp.qunar.com/job/unit_fe_nuomi
-
-QCI:
-http://qci.corp.qunar.com/job/unit_fe_nuomi
-
-job参数：
-界面上增加了2个可选参数：version（版本号，如1.0.1）和app（客户端宿主名称，如：nuomi）
-
-版本号策略：
-1. 发dev／beta不维护版本号，默认生成qunar-nuomi-1.0.1.zip
-1. 发prd时，优先使用界面中的version参数，如果不输入version，版本号会自动在上次编译版本号上+1
