@@ -1,0 +1,34 @@
+extends ../../common/layout/default.jade
+
+block title
+  title Article Title
+
+block style
+  link(rel="stylesheet" href="/pages/demo/index.css"  type="text/css")
+
+block content
+  h1 Contents
+  #contents
+  #test
+    h2 Imageviewer
+    a#image 点击查看图片
+    br
+    br
+
+    h2 Demo
+    - var auth = true
+    p(class=auth ? 'auth' : 'none' style={color: 'red'}) hello world
+    - var classes=['a', 'b', 'c']
+    a.d(class=classes href="google.com") google
+    div#foo(data-bar="foo")&attributes({'data-foo':'bar'})
+    p= 'This code is' + ' <escaped>!'
+    br
+
+  .separator
+
+  footer By&nbsp;
+    a(href="mailto:zhong.zhi@163.com") Qunar Touch
+    span &nbsp;&copy; 2015.7
+
+block script
+  script(src="/pages/demo/main.js")

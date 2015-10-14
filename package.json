@@ -1,0 +1,60 @@
+{
+  "name": "ochat-hybrid",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "hybird"
+  ],
+  "author": {
+    "name": "Qunar Touch Team",
+    "email": "touch@qunar.com",
+    "url": "http://touch.qunar.com"
+  },
+  "scripts": {
+    "start": "grunt serve"
+  },
+  "dependencies": {
+    "babel": "5.8.23",
+    "babel-eslint": "4.1.3",
+    "babelify": "6.3.0",
+    "core-decorators": "0.7.2",
+    "cssify": "0.7.0",
+    "grunt": "0.4.5",
+    "grunt-browserify": "4.0.0",
+    "grunt-cleanempty": "1.0.3",
+    "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-concat": "0.5.0",
+    "grunt-contrib-copy": "0.7.0",
+    "grunt-contrib-cssmin": "0.13.0",
+    "grunt-contrib-htmlmin": "0.3.0",
+    "grunt-contrib-imagemin": "0.9.4",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-contrib-less": "1.0.0",
+    "grunt-contrib-uglify": "0.7.0",
+    "grunt-eslint": "17.2.0",
+    "grunt-regex-replace": "0.2.6",
+    "grunt-rev": "0.1.0",
+    "grunt-spritesmith": "3.5.0",
+    "grunt-usemin": "3.0.0",
+    "grunt-zip": "0.17.1",
+    "jade": "1.10.0",
+    "jadeify": "4.4.0",
+    "jshint-stylish": "1.0.0",
+    "less-plugin-autoprefix": "1.5.1",
+    "less-plugin-clean-css": "1.5.1",
+    "lodash": "3.10.1",
+    "matchdep": "0.3.0",
+    "time-grunt": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "1.6.0",
+    "grunt-connect-route": "0.3.1",
+    "grunt-contrib-connect": "0.10.1",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-newer": "1.1.0",
+    "grunt-prompt": "^1.3.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
