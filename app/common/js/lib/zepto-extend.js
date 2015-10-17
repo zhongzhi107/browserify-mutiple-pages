@@ -1,7 +1,6 @@
 /**
  * @date   : 15-7-20
  * @author : 王文清(wenqing.wang)
- * @link   : touch.qunar.com
  * @desc   :
  */
 (function ($) {
@@ -244,5 +243,3 @@
   }, false));
 
 })(Zepto);
-
-

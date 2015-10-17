@@ -15,7 +15,7 @@ export default (grunt) => {
     let dir = grunt.config('yo.dist');
     let templateRoot = grunt.config('template.root.dist');
     let url, data = {
-      id: 'qunarhotel',
+      id: 'xxxhotel',
       version: grunt.config('qdr.version'),
       pages: []
     };

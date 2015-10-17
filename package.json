@@ -6,9 +6,9 @@
     "hybird"
   ],
   "author": {
-    "name": "Qunar Touch Team",
-    "email": "touch@qunar.com",
-    "url": "http://touch.qunar.com"
+    "name": "xxx Touch Team",
+    "email": "touch@xxx.com",
+    "url": "http://touch.xxx.com"
   },
   "scripts": {
     "start": "grunt serve"

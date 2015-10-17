@@ -13,7 +13,7 @@ export default {
 
   // 通用配置
   '^/api/(.*)': 'http://192.168.205.68:3001/api/$1',
-  // '^/api/(.*)': 'http://l-wap1.wap.dev.cn6.qunar.com:3001/api/$1'
+  // '^/api/(.*)': 'http://l-wap1.wap.dev.cn6.xxx.com:3001/api/$1'
   // '^/api/hotkeywords': 'require!/data/api/keywords/search-hot.js'
   '^/api2/(.*)': 'require!/data/api/$1.js',
   // '^/api/(.*)': 'http://localhost:3000/api/$1',

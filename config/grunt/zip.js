@@ -5,6 +5,6 @@ export default {
     compression: 'DEFLATE',
     cwd: '<%=yo.dist%>',
     src: '<%=yo.dist%>/**/*',
-    dest: '<%=yo.dist%>/zip/qunarhotel_<%=qdr.app%>_<%=qdr.version%>.zip'
+    dest: '<%=yo.dist%>/zip/hotel_<%=qdr.app%>_<%=qdr.version%>.zip'
   }
 };

@@ -18,7 +18,7 @@ export default {
             Object.keys(interfaces).forEach((key) => {
               interfaces[key].forEach((item) => {
                 if (item.family === 'IPv4' && item.internal === false) {
-                  // 根据qili的经验，在Qunar内部，如果ip第三段大于200，很有可能是无线网
+                  // 根据qili的经验，在公司内部，如果ip第三段大于200，很有可能是无线网
                   let isWireless = item.address.split('.')[2] >= 200 || false;
                   ipList[isWireless ? 'unshift' : 'push']({
                     name: item.address
